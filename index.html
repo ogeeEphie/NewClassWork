@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./bootstrap.css">
+    <title>Document</title>
+</head>
+<body class="bg-light">
+   <div class="container text-center">
+
+  <div class="card">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item nav-underline disabled"><strong class="countit"> BANK FORM </strong></li>
+            <li class="nav-item"> <a class="nav-link" href="">Countdown</a></li>
+            <li class="nav-item"> <a class="nav-link" href="" > Send Money</a> </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <h2 class="card-title "> TRANSFER</h2>
+        <div class="input-group mb-3">
+        <span class="input-group-text">Account Number</span>
+        <input type="number" class="form-control" id="acct-no" aria-label="account-number" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="snd-name" aria-label="sender's-name" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">Senders Name</span>    
+        </div>
+        <div class="mb-3">
+            <label for="">Your BVN should be accurate</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">BVN</span>
+                <input type="text" class="form-control" id="snd-name" aria-label="sender's-name" aria-describedby="basic-addon2">  
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="">Customer Details</label>
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon3">₦</span>
+                <input type="text" class="form-control" id="snd-name" aria-label="sender's-name" aria-describedby="basic-addon2">  
+                <span class="input-group-text" id="basic-addon3">AMOUNT</span>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Receiver">
+                <span class="input-group-text">ACCOUNT NUMBER</span>
+                <input class="form-control" type="number">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">PAYMENT COMMENT</span>
+            <input class="form-control" type="number">
+        </div>
+        <div>
+            <a href="#" class="btn btn-danger btn-space">SUBMIT</a>
+        </div>
+    </div>
+    <div class="card-footer bg-body-tertiary" id="display">
+
+    </div>
+
+   </div>
+</div>
+    
+</body>
+</html>
